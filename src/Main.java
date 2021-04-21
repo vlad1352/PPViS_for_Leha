@@ -14,6 +14,8 @@ public class Main extends JFrame {
         JLabel label_3 = new JLabel("group 3");
         JLabel label_4 = new JLabel("group 4");
         JLabel label_5 = new JLabel("group 5");
+        JLabel label_6 = new JLabel("group 6");
+
 
         Group_1 group_1 = new Group_1();
         panel.add(label_1);
@@ -35,9 +37,13 @@ public class Main extends JFrame {
         panel.add(label_5);
         panel.add(group_5.getPanel());
 
+        Group_6 group_6 = new Group_6();
+        panel.add(label_6);
+        panel.add(group_6.getPanel());
+
 
         add(panel);
-        setSize(500,500);
+        setSize(700,700);
         setVisible(true);
 
     }
